@@ -1,0 +1,1 @@
+Ayni transaction icinde yapilan iki okuma arasinda baska bir oturum veriyi guncelleyip COMMIT ettiginde, ilk oturum ikinci okumada degismis veriyi gormustur. READ COMMITTED seviyesinde Non-Repeatable Read olgusu gerceklesmektedir.

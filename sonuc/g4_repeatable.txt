@@ -1,0 +1,1 @@
+REPEATABLE READ izolasyon seviyesinde transaction basladigi andaki veri görüntüsü (snapshot) korunur. Baska oturumlar veriyi guncelleyip COMMIT etse bile transaction sonlanana kadar hep ayni veri okunur.

@@ -1,0 +1,1 @@
+Ayni transaction veya sonraki sorguda, baska bir oturum tarafindan eklenen (INSERT) ve COMMIT edilen yeni satirin (uye_id=99) sorgu sonucuna dahil oldugu gorulmustur. Bu durum Phantom Read olgusunu dogrulamaktadir.

@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: vtys-postgres
+    environment:
+      POSTGRES_USER: vtys
+      POSTGRES_PASSWORD: vtyspassword
+      POSTGRES_DB: vtysdb
+    ports:
+      - "5432:5432"

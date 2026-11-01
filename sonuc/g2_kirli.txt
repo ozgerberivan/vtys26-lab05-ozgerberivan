@@ -1,0 +1,1 @@
+PostgreSQL READ UNCOMMITTED izolasyon seviyesini otomatik olarak READ COMMITTED seviyesine yukseltir. Bu nedenle Oturum A'da henuz COMMIT edilmemis veri Oturum B tarafindan okunamamis, 396 degeri gorulmustur (Dirty Read engellenmistir).
