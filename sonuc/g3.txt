@@ -1,0 +1,7 @@
+﻿LAB 06 PERFORMANS KARŞILAŞTIRMA VE DEĞERLENDİRME RAPORU
+
+1. S1 (uye_id sorgusu): İndeks sonrası arama Index Scan'e dönüştü ve süre düştü.
+2. S2 (giris_zamani sorgusu): B-Tree indeksi sayesinde zaman dilimi hızla tarandı.
+3. S3 (bileşik sorgu): Composite index sayesinde tabloya erişim minimuma indirildi.
+
+GENEL SONUÇ: Doğru indeks kullanımı sorgu süresini ve I/O maliyetini ciddi oranda düşürür.
